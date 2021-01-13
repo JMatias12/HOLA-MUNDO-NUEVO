@@ -1,0 +1,9 @@
+contar =int (0)
+L= int( input('Ingrese un número: ') )
+while L>1 :
+        contar = contar + 1 
+        if L % 2 :
+                        L = L * 3 + 1
+        else:
+                    L  = L // 2
+print ("Resultado =", contar)

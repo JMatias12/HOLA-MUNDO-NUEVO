@@ -1,0 +1,5 @@
+print("saludos al gran rey")
+palabra1="saludos al gran rey"
+palabra2= palabra1.split()
+palabra2.sort()
+print(palabra2)

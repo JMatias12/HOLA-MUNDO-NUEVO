@@ -1,0 +1,11 @@
+"" "
+mini-desafio
+Diseñar un programa en el cual el usuario ingrese tres números, uno a la vez, y se muestre a la salida el promedio de los tres números.
+
+"" "
+
+pri =  int ( input ( "Ingrese primer numero:" ))
+se =  int ( input ( "Ingrese segundo numero:" ))
+ter =  int ( input ( "Ingrese tercer numero:" ))
+y = ( pri + se + ter ) / 3
+imprimir ( y )

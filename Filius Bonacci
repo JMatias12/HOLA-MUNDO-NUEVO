@@ -1,0 +1,16 @@
+"" "
+Fácil La secuencia de Filius Bonacci
+Imprimir los primeros 100 números de la sucesión de Fibonacci separados por nuevas líneas.
+ki + 1 = ki + ki − 1
+donde k0 = 0, k1 = 1
+
+"" "
+def  fibonacci ( k ):
+    si  k  <  2 :
+        volver  k
+    otra cosa :
+        
+        devolver  fibonacci ( k - 1 ) +  fibonacci ( k - 2 ) # ki = ki-1 + ki-2
+
+para  x  en el  rango ( 10 ):
+ print ( fibonacci ( x )) #mprimir los primeros 100 números de la sucesión de Fibonacci separados por nuevas líneas.
